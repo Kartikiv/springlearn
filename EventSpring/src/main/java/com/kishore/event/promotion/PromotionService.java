@@ -27,8 +27,8 @@ public class PromotionService
     public void calculateRewardPoints(Order order)
     {
     	Long customerId = order.getCustomer().getId();
-    	
-        Customer customer = customerRepository.findById(customerId).get();
+    	Customer customer = order.getCustomer();
+      //  Customer customer = customerRepository.findById(customerId).get();
 
         //for each order entry (product + quantity) gather reward status points
         //for simulation we will append 10 points per order

@@ -73,10 +73,12 @@ public class StudentsController {
 
 	@GetMapping
 	public ResponseEntity<Object> getAll() {
+		System.out.println("endpoint hit");
 		List<Students> sList = repo.showAll();
 		if (sList == null || sList.isEmpty()) {
 			return new ResponseEntity<Object>("EMPTY", HttpStatus.BAD_REQUEST);
 		}
+		
 		return new ResponseEntity<Object>(sList, HttpStatus.ACCEPTED);
 	}
 

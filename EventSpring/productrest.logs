@@ -5,3 +5,122 @@
 2023-01-16 09:53:40.740  INFO 13428 --- [RMI TCP Connection(47)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-01-16 09:53:40.778  INFO 13428 --- [RMI TCP Connection(47)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-01-16 09:53:40.792  INFO 13428 --- [RMI TCP Connection(47)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-16 10:34:47.562  INFO 18048 --- [main] com.kishore.event.EventsApplication      : Starting EventsApplication using Java 17.0.4.1 on kartik with PID 18048 (C:\Users\karth\git\spring\EventSpring\target\classes started by karth in C:\Users\karth\git\spring\EventSpring)
+2023-01-16 10:34:47.566 DEBUG 18048 --- [main] com.kishore.event.EventsApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-01-16 10:34:47.566  INFO 18048 --- [main] com.kishore.event.EventsApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-01-16 10:34:48.176  INFO 18048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-16 10:34:48.242  INFO 18048 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2023-01-16 10:34:49.249  INFO 18048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-01-16 10:34:49.265  INFO 18048 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-16 10:34:49.265  INFO 18048 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-01-16 10:34:49.395  INFO 18048 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-16 10:34:49.395  INFO 18048 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1769 ms
+2023-01-16 10:34:49.428  INFO 18048 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-16 10:34:49.589  INFO 18048 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-16 10:34:49.598  INFO 18048 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:orderdb'
+2023-01-16 10:34:49.740  INFO 18048 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-16 10:34:49.778  INFO 18048 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-16 10:34:49.901  INFO 18048 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-16 10:34:49.982  INFO 18048 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-16 10:34:50.446  INFO 18048 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-16 10:34:50.453  INFO 18048 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-16 10:34:50.816  WARN 18048 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-16 10:34:51.248  INFO 18048 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-01-16 10:34:51.256  INFO 18048 --- [main] com.kishore.event.EventsApplication      : Started EventsApplication in 4.011 seconds (JVM running for 4.741)
+2023-01-16 10:34:56.498  INFO 18048 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-01-16 10:34:56.513  INFO 18048 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-16 10:34:56.520  INFO 18048 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-16 10:34:56.521  INFO 18048 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-16 10:34:56.524  INFO 18048 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-16 13:58:02.482  INFO 16008 --- [main] com.kishore.event.EventsApplication      : Starting EventsApplication using Java 17.0.4.1 on kartik with PID 16008 (C:\Users\karth\git\spring\EventSpring\target\classes started by karth in C:\Users\karth\git\spring\EventSpring)
+2023-01-16 13:58:02.485 DEBUG 16008 --- [main] com.kishore.event.EventsApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-01-16 13:58:02.487  INFO 16008 --- [main] com.kishore.event.EventsApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-01-16 13:58:03.165  INFO 16008 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-16 13:58:03.220  INFO 16008 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2023-01-16 13:58:03.833  INFO 16008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-01-16 13:58:03.844  INFO 16008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-16 13:58:03.845  INFO 16008 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-01-16 13:58:03.942  INFO 16008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-16 13:58:03.942  INFO 16008 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1406 ms
+2023-01-16 13:58:03.980  INFO 16008 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-16 13:58:04.166  INFO 16008 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-16 13:58:04.176  INFO 16008 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:orderdb'
+2023-01-16 13:58:04.337  INFO 16008 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-16 13:58:04.375  INFO 16008 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-16 13:58:04.553  INFO 16008 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-16 13:58:04.635  INFO 16008 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-16 13:58:05.131  INFO 16008 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-16 13:58:05.138  INFO 16008 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-16 13:58:05.510  WARN 16008 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-16 13:58:05.939  INFO 16008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-01-16 13:58:05.948  INFO 16008 --- [main] com.kishore.event.EventsApplication      : Started EventsApplication in 3.851 seconds (JVM running for 4.487)
+2023-01-16 14:57:51.546  INFO 16008 --- [RMI TCP Connection(64)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-01-16 14:57:51.613  INFO 16008 --- [RMI TCP Connection(64)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-16 14:57:51.636  INFO 16008 --- [RMI TCP Connection(64)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-16 14:57:51.646  INFO 16008 --- [RMI TCP Connection(64)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-16 14:57:51.650  INFO 16008 --- [RMI TCP Connection(64)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-16 16:30:13.492  INFO 4828 --- [main] com.kishore.event.EventsApplication      : Starting EventsApplication using Java 17.0.4.1 on kartik with PID 4828 (C:\Users\karth\git\spring\EventSpring\target\classes started by karth in C:\Users\karth\git\spring\EventSpring)
+2023-01-16 16:30:13.495 DEBUG 4828 --- [main] com.kishore.event.EventsApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-01-16 16:30:13.496  INFO 4828 --- [main] com.kishore.event.EventsApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-01-16 16:30:14.099  INFO 4828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-16 16:30:14.150  INFO 4828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2023-01-16 16:30:14.770  INFO 4828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-01-16 16:30:14.781  INFO 4828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-16 16:30:14.782  INFO 4828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-01-16 16:30:14.879  INFO 4828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-16 16:30:14.880  INFO 4828 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1336 ms
+2023-01-16 16:30:14.914  INFO 4828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-16 16:30:15.083  INFO 4828 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-16 16:30:15.103  INFO 4828 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:orderdb'
+2023-01-16 16:30:15.238  INFO 4828 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-16 16:30:15.278  INFO 4828 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-16 16:30:15.432  INFO 4828 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-16 16:30:15.522  INFO 4828 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-16 16:30:16.026  INFO 4828 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-16 16:30:16.033  INFO 4828 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-16 16:30:16.387  WARN 4828 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-16 16:30:16.801  INFO 4828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-01-16 16:30:16.809  INFO 4828 --- [main] com.kishore.event.EventsApplication      : Started EventsApplication in 3.682 seconds (JVM running for 4.29)
+2023-01-16 16:31:53.271  INFO 4828 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-01-16 16:31:53.285  INFO 4828 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-16 16:31:53.293  INFO 4828 --- [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-16 16:31:53.294  INFO 4828 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-16 16:31:53.297  INFO 4828 --- [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-01-16 16:32:07.064  INFO 13528 --- [main] com.kishore.event.EventsApplication      : Starting EventsApplication using Java 17.0.4.1 on kartik with PID 13528 (C:\Users\karth\git\spring\EventSpring\target\classes started by karth in C:\Users\karth\git\spring\EventSpring)
+2023-01-16 16:32:07.066 DEBUG 13528 --- [main] com.kishore.event.EventsApplication      : Running with Spring Boot v2.7.6, Spring v5.3.24
+2023-01-16 16:32:07.067  INFO 13528 --- [main] com.kishore.event.EventsApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-01-16 16:32:07.601  INFO 13528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-16 16:32:07.652  INFO 13528 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2023-01-16 16:32:08.217  INFO 13528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-01-16 16:32:08.226  INFO 13528 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-01-16 16:32:08.227  INFO 13528 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2023-01-16 16:32:08.312  INFO 13528 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-01-16 16:32:08.312  INFO 13528 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1200 ms
+2023-01-16 16:32:08.351  INFO 13528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-16 16:32:08.524  INFO 13528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-16 16:32:08.534  INFO 13528 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:orderdb'
+2023-01-16 16:32:08.678  INFO 13528 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-16 16:32:08.718  INFO 13528 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-01-16 16:32:08.844  INFO 13528 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-16 16:32:08.929  INFO 13528 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-01-16 16:32:09.410  INFO 13528 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-16 16:32:09.418  INFO 13528 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-16 16:32:09.779  WARN 13528 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-16 16:32:10.166  INFO 13528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-01-16 16:32:10.174  INFO 13528 --- [main] com.kishore.event.EventsApplication      : Started EventsApplication in 3.461 seconds (JVM running for 4.076)
+2023-01-16 16:32:27.700  INFO 13528 --- [http-nio-7070-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-16 16:32:27.701  INFO 13528 --- [http-nio-7070-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-01-16 16:32:27.701  INFO 13528 --- [http-nio-7070-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-01-16 16:32:27.958  INFO 13528 --- [http-nio-7070-exec-6] c.k.event.promotion.PromotionService     : Apply free gift for a customer Customer(id=1, email=kar, newsletter=true, rewardPoints=0)
+2023-01-16 16:32:27.978  INFO 13528 --- [task-1] c.k.event.analytics.AnalyticsService     : calling analytics service for customer Customer(id=1, email=kar, newsletter=true, rewardPoints=0)
+2023-01-16 16:32:29.989  INFO 13528 --- [task-2] com.kishore.event.email.EmailService     : Sending registration email to customer Customer(id=1, email=kar, newsletter=true, rewardPoints=0)
+2023-01-16 16:32:38.951  INFO 13528 --- [http-nio-7070-exec-3] com.kishore.event.order.OrderService     : Placing and order Order(id=null, status=null, message=saved kar order, customer=Customer(id=1, email=null, newsletter=false, rewardPoints=null))
+2023-01-16 16:32:38.956  INFO 13528 --- [http-nio-7070-exec-3] com.kishore.event.order.OrderService     : Publishing order completed event
+2023-01-16 16:32:39.009  INFO 13528 --- [http-nio-7070-exec-3] c.k.event.promotion.PromotionService     : Customer 1, reward points old: 10, new: 10
+2023-01-16 16:32:40.959  INFO 13528 --- [task-3] com.kishore.event.email.EmailService     : ------------------------------------->>>>>>>>>>>>>>>>>>>> Sending email for order Order(id=2, status=COMPLETED, message=saved kar order, customer=Customer(id=1, email=null, newsletter=false, rewardPoints=10))
+2023-01-16 16:35:26.991  INFO 13528 --- [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-01-16 16:35:27.007  INFO 13528 --- [RMI TCP Connection(7)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-01-16 16:35:27.009  INFO 13528 --- [RMI TCP Connection(7)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-16 16:35:27.016  INFO 13528 --- [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-16 16:35:27.018  INFO 13528 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-16 16:35:27.020  INFO 13528 --- [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
