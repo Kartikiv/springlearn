@@ -10,13 +10,14 @@ import com.testskill.db.entity.Students;
 
 @SpringBootTest
 class TestskillsApplicationTests {
-@Autowired
-JDBCConnectorStudents repo;
-@Autowired
-TestJDBCConnector repo1;
+	@Autowired
+	JDBCConnectorStudents repo;
+	@Autowired
+	TestJDBCConnector repo1;
+
 	@Test
 	void contextLoads() {
-		Students s=new Students();
+		Students s = new Students();
 		s.setId(1l);
 		s.setEmail("kartik@gmail.com");
 		s.setName("kartik");
@@ -25,9 +26,9 @@ TestJDBCConnector repo1;
 		repo.save(s);
 		s.setEmail("test");
 		repo.update(s);
-		repo1.save(s);
+
 		System.out.println(repo.getAll());
-		System.out.println(repo.getByID(1l)+"is with id 1");
+		System.out.println(repo.getByID(1l) + "is with id 1");
 	}
 
 }

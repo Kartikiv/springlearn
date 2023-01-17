@@ -13,7 +13,7 @@ public class JdbcConnector {
 	static String SAVE_EMP="insert into employee(id,age,name,salary) values(?,?,?,?)";
 	String Show_EMP="select* from employee where id=?";
 	@Autowired
-	NamedParameterJdbcTemplate connection;
+	JdbcTemplate connection;
 	
 public int updateemp(Employee e) {
 	return connection.update(SAVE_EMP, new Object[] {e.getId(),e.getAge(),e.getName(),e.getSalary()});

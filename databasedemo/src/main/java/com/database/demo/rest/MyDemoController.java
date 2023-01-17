@@ -51,7 +51,7 @@ public class MyDemoController {
 	@GetMapping("/upd/{id}")
 	public void upd(@PathVariable String id){
 		int a =Integer.parseInt(id);
-		kar.updatestudents(9);
+		kar.updatestudents(null);
 	
 	}
 }
